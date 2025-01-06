@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Section Styles */
+.teachers-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.teachers-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #2a6496;
+}
+
+.section-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Language Filter Buttons */
+.language-filter {
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    background-color: #2a6496;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #1d486b;
+}
+
+.filter-btn.active {
+    background-color: #1d486b;
+}
+
+/* Teachers Grid */
+.teachers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Teacher Card Styles */
+.teacher-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.teacher-card:hover {
+    transform: translateY(-10px);
+}
+
+.teacher-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.teacher-header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.teacher-badges {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.badge.native {
+    background-color: #4caf50;
+}
+
+.badge.years {
+    background-color: #2a6496;
+}
+
+/* Teacher Info */
+.language {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+
+.credentials {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+/* Specialties and Diplomas */
+.specialties, .diplomas {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.specialties span {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
+
+.diplomas h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #2a6496;
+}
+
+.diplomas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.diplomas li {
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.diplomas li i {
+    margin-right: 8px;
+    color: #ff6f61;
+}
+
+/* Contact and Schedule Buttons */
+.teacher-contact {
+    margin-top: 15px;
+}
+
+.contact-btn, .schedule-btn {
+    display: inline-block;
+    background-color: #2a6496;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover, .schedule-btn:hover {
+    background-color: #1d486b;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

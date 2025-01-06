@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Added meta tags for SEO -->
+    <meta name="description" content="مدرسة تعليم اللغات - تعلم اللغات الأجنبية مع أفضل المدرسين">
+    <meta name="keywords" content="تعليم لغات, مدرسة لغات, دورات لغة إنجليزية, دورات لغة فرنسية">
+    <title>مدرسة تعليم اللغات</title>
+    <link rel="stylesheet" href="more.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Replaced navigation menu with school image -->
+        <div class="school-image">
+            <img src="images/school.jpg" alt="صورة مدرسة تعليم اللغات" class="main-image">
+        </div>
+
+        <!-- Modified About Section with article tag -->
+        <article id="about-us">
+            <h2>عن المدرسة</h2>
+            <p>مدرسة تعليم اللغات تأسست في عام 2010، وهي مدرسة معتمدة من قبل وزارة التعليم لتعليم عدة لغات. هدفنا هو تمكين الطلاب من التواصل بلغات مختلفة وتطوير مهاراتهم اللغوية.</p>
+            
+            <!-- Added school facilities gallery -->
+            <div class="school-gallery">
+                <div class="gallery-item">
+                    <img src="images/classroom.jpg" alt="قاعات الدراسة">
+                    <p>قاعات الدراسة</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/language-lab.jpg" alt="معمل اللغات">
+                    <p>معمل اللغات</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/library.jpg" alt="المكتبة">
+                    <p>المكتبة</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/activity-room.jpg" alt="قاعة الأنشطة">
+                    <p>قاعة الأنشطة</p>
+                </div>
+            </div>
+        
+            <!-- Added teachers button -->
+            <div class="teachers-button-container">
+                <a href="teachers.html" class="teachers-button">تعرف على أساتذتنا</a>
+            </div>
+        </article>
+
+        <!-- Modified Contact Section -->
+        <section id="contact">
+            <h2>تواصل معنا</h2>
+            <!-- Added contact form -->
+            <form action="/submit" method="POST">
+                <div class="form-group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">إرسال</button>
+            </form>
+            <p>للتواصل والاستفسار، يرجى الاتصال على الرقم: 0123456789 أو إرسال بريد إلكتروني إلى info@school.com</p>
+        </section>
+
+        <!-- Modified Footer with social links -->
+        <footer>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 مدرسة تعليم اللغات. جميع الحقوق محفوظة.</p>
+        </footer>
+    </div>
+</body>
+</html>
